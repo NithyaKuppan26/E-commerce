@@ -1,0 +1,81 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 225, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0 ;
+}
+#login {
+    width: 50vw;
+    height: 70vh;
+                                                                                                                                                                                                                                                                                                                                            
+    background-color: white;
+}
+
+#login {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#bg {
+    width: 45vw;
+    height: 60vh;
+    /* background-color: blue; */
+    position: absolute;
+    top: 50px;
+  
+
+}
+
+#bg p {
+    position: relative;
+    left: 35px;
+
+}
+
+#buttontype {
+    background-color: rgb(49, 226, 43);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px; 
+    width: 160px;
+}
+
+#buttontype:hover {
+    background-color: rgb(25, 219, 74);
+}
+
+#loginbutton {
+    background-color: rgb(95, 0, 90);
+    color: white;
+    font-size: large;
+    border-radius: 6px;
+    border: none;
+    height: 45px; 
+    width: 160px;
+}
+.inp1{
+    height: 40px; 
+    border-radius: 6px; 
+    border-style: ridge;
+    padding-left: 10px;
+    width: 250px;
+}
+.inp2{
+    height: 40px; 
+    width: 250px;
+    padding-left: 10px; 
+    border-radius: 6px; 
+    border-style: ridge;
+}
+

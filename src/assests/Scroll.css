@@ -1,0 +1,33 @@
+.items{
+    display: flex;
+    overflow-x: scroll;
+  margin-top: 15px;
+   z-index: -1;
+   background-color: white;
+ margin-left: 15px;
+ margin-right: 15px;
+margin-bottom: 15px;
+   padding: 10px;
+   border-radius: 5px;
+}
+.items::-webkit-scrollbar{
+   display: block;
+   overflow-x: hidden;
+   
+  
+}
+.items::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius: 15px;
+  width: 10px;
+  height: 5px;
+
+}
+    .items img{
+        width: 90px;
+        height: 90px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+   

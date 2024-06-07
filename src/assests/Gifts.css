@@ -1,0 +1,39 @@
+.giftsDiv{
+
+
+
+    display: grid;
+    grid-template-columns: 100px 100px;
+  }
+  .gifts{
+    display: flex;
+    
+    position: relative;
+    top: 20px;
+    right: 0;
+    width: 100%;
+    
+  }
+  .gifts,p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  .giftsDiv p{
+    font-size: 10px;
+  }
+  .cardDiv{
+    /* border-style: none; */
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .gMainDiv1,.gMainDiv2, .gMainDiv3, .gMainDiv4{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  

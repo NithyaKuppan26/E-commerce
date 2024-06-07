@@ -1,0 +1,73 @@
+.coll1,.coll2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+    top: 70px;
+    flex: 1;
+  }
+.coll{
+    margin-left: 50px;
+    
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+.coll{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+  .logo1{
+    margin-top: 5px;
+    margin-bottom:20px ;
+    width: 120px;
+    margin-left: 0px;
+  }
+  .coll1 a{
+    text-decoration: none;
+    color: black;
+  }
+  .coll2 a{
+    text-decoration: none;
+    color: black;
+  }
+  footer{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    left: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  footer div{
+    padding-right: 50px;
+  }
+  footer::after {
+    content: "";
+    display: block;
+    height: 0; /* Check if there's any height */
+  }
+  .footerDiv{
+    background-color: white;
+  }
