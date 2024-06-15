@@ -3,7 +3,7 @@
 
 
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 150px 150px;
   }
   .gifts{
     display: flex;
@@ -22,7 +22,10 @@
     top: 10px;
   }
   .giftsDiv p{
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .tit{
+    font-size: 25px;
   }
   .cardDiv{
     /* border-style: none; */
@@ -33,7 +36,7 @@
   .gMainDiv1,.gMainDiv2, .gMainDiv3, .gMainDiv4{
     margin: 5px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
   }
   

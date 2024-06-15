@@ -22,7 +22,7 @@ function Gifts() {
       <div className='gifts'>
       
       <div className='gMainDiv1'>
-      <p>Gift loved ones</p>
+      <p className='tit'>Gift loved ones</p>
       <div className='giftsDiv'>
       <div class="card" style={{width: "18rem;"}} className='cardDiv' >
     <img src={g1} class="card-img-top" alt="..."/>
@@ -44,7 +44,7 @@ function Gifts() {
     </div>
       </div>
       <div className='gMainDiv2'>
-      <p>Gift loved ones</p>
+      <p className='tit'>Personalised Gifts</p>
       <div className='giftsDiv'>
       <div class="card" style={{width: "18rem;"}} className='cardDiv' >
     <img src={g5} class="card-img-top" alt="..."/>
@@ -66,7 +66,7 @@ function Gifts() {
     </div>
       </div>
       <div className='gMainDiv3'>
-      <p>Upto 30% off</p>
+      <p className='tit'>Upto 30% off</p>
       <div className='giftsDiv'>
       <div class="card" style={{width: "18rem;"}} className='cardDiv' >
     <img src={g9} class="card-img-top" alt="..."/>
@@ -88,7 +88,7 @@ function Gifts() {
     </div>
       </div>
       <div className='gMainDiv4'>
-      <p>Starting Rs.200</p>
+      <p className='tit'>Starting Rs.200</p>
       <div className='giftsDiv'>
       <div class="card" style={{width: "18rem;"}} className='cardDiv' >
     <img src={g13} class="card-img-top" alt="..."/>

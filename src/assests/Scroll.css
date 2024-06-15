@@ -1,14 +1,14 @@
 .items{
     display: flex;
     overflow-x: scroll;
-  margin-top: 15px;
-   z-index: -1;
-   background-color: white;
- margin-left: 15px;
- margin-right: 15px;
-margin-bottom: 15px;
-   padding: 10px;
-   border-radius: 5px;
+    margin-top: 15px;
+    z-index: -1;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
 }
 .items::-webkit-scrollbar{
    display: block;
@@ -19,13 +19,13 @@ margin-bottom: 15px;
 .items::-webkit-scrollbar-thumb {
   background: lightgrey;
   border-radius: 15px;
-  width: 10px;
-  height: 5px;
+  width: 5px;
+  height: 2px;
 
 }
     .items img{
-        width: 90px;
-        height: 90px;
+        width: 150px;
+        height: 150px;
         padding: 10px;
         border-radius: 5px;
     }

@@ -26,7 +26,7 @@ top: 0;
   z-index: 100;
 }
 .nav-bar{
-  height: 40px;
+  height: 60px;
   background-color: rgb(31, 30, 30);
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ top: 0;
   color: white;
 }
 .nav-bar img{
-  width: 100px;
+  width: 150px;
   padding-top: 3px;
 }
 

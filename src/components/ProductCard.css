@@ -1,12 +1,13 @@
 .cardDiv {
     margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2rem;
-
+    cursor: pointer;
   }
+
   
   .card-img-top {
     width: 100%;
@@ -18,7 +19,7 @@
   }
   
   .card-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-bottom: 10px;
   }
   
