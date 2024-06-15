@@ -16,10 +16,11 @@ import g13 from '../images/13.jpg'
 import g14 from '../images/14.jpg'
 import g15 from '../images/15.jpg'
 import g16 from '../images/16.jpg'
+import { Link } from 'react-router-dom'
 function Scroll() {
   return (
     <div>
-    <div class="items">
+      <Link to={"/photoshoot"}> <div class="items" >
     <img src={g1} />
     <img src={g2} />
     <img src={g3} />
@@ -34,10 +35,8 @@ function Scroll() {
     <img src={g12} />
     <img src={g13} />
     <img src={g14} />
-
-  
- 
-</div>
+</div></Link>
+   
     </div>
   )
 }
