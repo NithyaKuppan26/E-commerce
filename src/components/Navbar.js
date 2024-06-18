@@ -21,7 +21,6 @@ function Navbar() {
           <span className='span1'>{cartTotalQuantity}</span>
            </span>
           </div>
-        
         </Link>
        
       </nav>

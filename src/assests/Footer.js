@@ -10,6 +10,7 @@ function Footer() {
     <h4>Contact</h4>
     <p><strong>Address:</strong> 110/1 G.S.T Road Guduvancheri-603202</p>
     <p><strong>Phone:</strong> 99400 81650</p>
+    <p><strong>Email:</strong> dineshdigitaldreamz@gmail.com</p>
     <p><strong>Hours:</strong> 07:00am - 09:00pm, Mon - Sat</p>
   </div>
   <div class="coll1">

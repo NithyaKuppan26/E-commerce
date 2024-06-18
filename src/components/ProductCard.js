@@ -20,7 +20,6 @@ function ProductCard({ product}) {
         <p className="card-text">Price: ₹{product.price}</p>
       </div>
       <button type="button" className='addCartBtn' class="btn btn-primary" onClick={() => handleAddToCart(product)}>Add to Cart</button>
-     
     </div>
   );
 }

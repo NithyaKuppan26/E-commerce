@@ -1,75 +1,87 @@
 import { createSlice } from "@reduxjs/toolkit";
-import keychain from './images/gift1.jpg';
-import pillow from './images/gift2.jpg';
+import BackCase from './images/gift1.jpg';
+import frame1 from './images/gift2.jpg';
 import frame from './images/gift3.jpg';
-import waterBottle from './images/gift4.jpg';
+import album from './images/gift4.jpg';
 import photoPrint from './images/gift5.jpg';
-import mugPrint from './images/gift6.jpg';
-import miniAlbum from './images/gift7.jpg';
-import calendarPrint from './images/gift8.jpg';
-import bwToColor from './images/gift9.jpg';
-import photoRestoration from './images/gift10.jpg';
-
+import bottlePrint from './images/gift6.jpg';
+import frame2 from './images/gift7.jpg';
+import tshirt from './images/gift8.jpg';
+import clock from './images/gift9.jpg';
+import calender from './images/gift10.jpg';
+import keychain from './images/gift13.jpg';
+import bw from './images/gift14.jpg';
 const initialState=[
     {
         id:1,
-        name:"keychain",
-        price:200,
-        image:keychain,
+        name:"Mobile Case",
+        price:320,
+        image:BackCase,
     },
     {
         id:2,
-        name:"pillow",
+        name:"Frame",
         price:300,
-        image:pillow,
+        image:frame1,
     },
     {
         id:3,
-        name:"frame",
+        name:"Frame",
         price:800,
         image:frame,
     },
     {
         id:4,
-        name:"water bottle",
-        price:200,
-        image:waterBottle,
+        name:"Mini Album",
+        price:2000,
+        image:album,
     },
     {
         id:5,
-        name:"photo print",
+        name:"Mug print",
         price:500,
         image:photoPrint,
     },
     {
         id:6,
-        name:"mug print",
+        name:"Bottle print",
         price:200,
-        image:mugPrint,
+        image:bottlePrint,
     },
     {
         id:7,
-        name:"mini album",
-        price:2000,
-        image:miniAlbum,
+        name:"Frame",
+        price:750,
+        image:frame2,
     },
     {
         id:8,
-        name:"calender print",
+        name:"T-shirt",
         price:700,
-        image:calendarPrint,
+        image:tshirt,
     },
     {
         id:9,
-        name:"b/w to color",
+        name:"Clock Print",
         price:1000,
-        image:bwToColor,
+        image:clock,
     },
     {
         id:10,
-        name:"photo restoration",
-        price:1500,
-        image:photoRestoration,
+        name:"Calender Print",
+        price:680,
+        image:calender,
+    },  {
+        id:11,
+        name:"Key Chain",
+        price:200,
+        image:keychain,
+    },
+    {
+        id:12,
+        name:"B/w - Color",
+        price:1200,
+        image:bw,
     }
     ]
 const productSlice=createSlice({

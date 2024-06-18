@@ -1,0 +1,29 @@
+.formControl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 40%;
+    position: relative;
+    left: 350px;
+}
+.contact{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 500px;
+}
+.formControl input,button,textarea{
+    margin: 10px;
+}
+.formControl input,textarea{
+    padding: 3px;
+    width: 300px;
+}
+.formControl button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+}

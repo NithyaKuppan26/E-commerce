@@ -35,6 +35,8 @@ function Scroll() {
     <img src={g12} />
     <img src={g13} />
     <img src={g14} />
+    <img src={g15} />
+    <img src={g16} />
 </div></Link>
    
     </div>
