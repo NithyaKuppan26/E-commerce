@@ -1,0 +1,24 @@
+.searchbar{
+    width: 400px;
+    padding-left: 10px;
+    height: 30px;
+    display: flex;
+  }
+  .searchbar:hover{
+    cursor: pointer;
+    border-color: orange;
+  }
+  
+  .inp:hover{
+    cursor: pointer;
+  }
+  .btn{
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 1px;
+height: 30px;
+  }
+  .btn:hover{
+    background-color: orange;
+    color: white;
+  }

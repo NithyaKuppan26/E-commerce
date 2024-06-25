@@ -4,10 +4,8 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from './CartSlice';
 import { useNavigate } from 'react-router';
 function ProductCard({ product}) {
-    
-    
     const dispatch = useDispatch();
-      const navigate=useNavigate()
+    const navigate=useNavigate()
     const handleAddToCart = (product) => {
       dispatch(addToCart(product));
       navigate("/cart")

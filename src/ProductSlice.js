@@ -11,6 +11,16 @@ import clock from './images/gift9.jpg';
 import calender from './images/gift10.jpg';
 import keychain from './images/gift13.jpg';
 import bw from './images/gift14.jpg';
+import key1 from './images/key1.jpg';
+import key9 from './images/key9.jpg';
+import key2 from './images/key2.jpg';
+import key3 from './images/key3.jpg';
+import key4 from './images/key4.jpg';
+import key5 from './images/key5.jpg';
+import key6 from './images/key6.jpg';
+import key7 from './images/key7.jpg';
+import key8 from './images/key8.jpg';
+
 const initialState=[
     {
         id:1,
@@ -82,7 +92,62 @@ const initialState=[
         name:"B/w - Color",
         price:1200,
         image:bw,
-    }
+    },
+    {
+        id:13,
+        name:"keychain",
+        price:200,
+        image:key1,
+    },
+    {
+        id:14,
+        name:"keychain",
+        price:200,
+        image:key2,
+    },
+    {
+        id:15,
+        name:"keychain",
+        price:200,
+        image:key3,
+    },
+    {
+        id:16,
+        name:"keychain",
+        price:200,
+        image:key4,
+    },
+    {
+        id:17,
+        name:"keychain",
+        price:200,
+        image:key5,
+    },
+    {
+        id:18,
+        name:"keychain",
+        price:200,
+        image:key6,
+    },
+    {
+        id:19,
+        name:"keychain",
+        price:200,
+        image:key7,
+    },
+    {
+        id:20,
+        name:"keychain",
+        price:200,
+        image:key8,
+    },
+    {
+        id:21,
+        name:"keychain",
+        price:200,
+        image:key9,
+    },
+
     ]
 const productSlice=createSlice({
     name:"products",

@@ -1,0 +1,18 @@
+.keyDiv{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px;
+   
+
+}
+.DivBox{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+p{
+    text-decoration: none;
+}

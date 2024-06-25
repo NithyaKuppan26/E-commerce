@@ -9,47 +9,42 @@ function Photoshoot() {
   return (
     <div className='Photoshoot'>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" >
-  <div class="carousel-indicators">
+    <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div>
-  <div class="carousel-inner">
+   </div>
+    <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
       <img src={eve1} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Birthday Party</h5>
-       
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src={eve2} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Baby Shower</h5>
-        
       </div>
     </div>
     <div class="carousel-item">
       <img src={eve3} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>NewBorn Photoshoot</h5>
-        
+        <h5>NewBorn Photoshoot</h5>        
       </div>
     </div>
     <div class="carousel-item">
       <img src={eve4} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Wedding Photoshoot</h5>
-       
       </div>
     </div>
     <div class="carousel-item">
       <img src={eve5} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Prewedding Photoshoot</h5>
-  
       </div>
     </div>
   </div>
